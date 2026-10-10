@@ -33,7 +33,8 @@ class Jaekit < Formula
 
   test do
     assert_equal "ha #{version}", shell_output("#{bin}/ha --version").strip
-    assert_match '"default_rules": "run-rules/3"', shell_output("#{bin}/ha capabilities --format json")
+    require "json"
+    assert_equal "run-rules/3", JSON.parse(shell_output("#{bin}/ha capabilities --format json")).fetch("default_rules")
     assert_predicate pkgshare/"tools/check-result-reference.py", :file?
     assert_predicate pkgshare/"examples/check-result/declaration.json", :file?
   end
