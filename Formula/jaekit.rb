@@ -1,28 +1,28 @@
 class Jaekit < Formula
   desc "Seal Core (ha): run records and recorded completion for coding-agent goals"
   homepage "https://github.com/jgoneit/jaekit"
-  version "0.1.3"
+  version "0.1.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/jgoneit/jaekit/releases/download/v0.1.3/ha_0.1.3_darwin_arm64.tar.gz"
-      sha256 "4d4dde8cad5f798b0a114140908ba1bb584d3544f7b4e905cb2c9ef401afee40"
+      url "https://github.com/jgoneit/jaekit/releases/download/v0.1.4/ha_0.1.4_darwin_arm64.tar.gz"
+      sha256 "5929688e26e60cbbc6f0071a28199fef499c0504ce0fe34599d15ae2746fbea8"
     end
     on_intel do
-      url "https://github.com/jgoneit/jaekit/releases/download/v0.1.3/ha_0.1.3_darwin_amd64.tar.gz"
-      sha256 "0db541f77de8b9edc68ac1133d1b9e2cad2dc766e72190c1e33b67676d00c2b3"
+      url "https://github.com/jgoneit/jaekit/releases/download/v0.1.4/ha_0.1.4_darwin_amd64.tar.gz"
+      sha256 "496f3d01dbbaf2c59cfccea69c09b0b1a925af734e3fc3ae64a5676b6608b28e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/jgoneit/jaekit/releases/download/v0.1.3/ha_0.1.3_linux_arm64.tar.gz"
-      sha256 "dafc7460bfc446d3af83d3db1f55cd96e3ac20fbdc392f9f08483a482d06d48e"
+      url "https://github.com/jgoneit/jaekit/releases/download/v0.1.4/ha_0.1.4_linux_arm64.tar.gz"
+      sha256 "a333d6a65af173e227f8d78caba7eb175d4382e51580a6d88f59ddf811024939"
     end
     on_intel do
-      url "https://github.com/jgoneit/jaekit/releases/download/v0.1.3/ha_0.1.3_linux_amd64.tar.gz"
-      sha256 "e98895a21e77fd82ee80e61d66c0b53dfec0f269452806e29a6db11b6ee9f73f"
+      url "https://github.com/jgoneit/jaekit/releases/download/v0.1.4/ha_0.1.4_linux_amd64.tar.gz"
+      sha256 "b71962f808eb3d7c4011670a9b096c4c981e5d5db2c5aa4c77752967f7591988"
     end
   end
 
